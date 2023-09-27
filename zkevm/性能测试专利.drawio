@@ -1,0 +1,120 @@
+<mxfile host="Electron" modified="2023-09-27T06:51:45.731Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.8.2 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="qw-Qr-kXxqVY5zmz2XZo" version="21.8.2" type="device">
+  <diagram name="第 1 页" id="B3QnYkkQuHy4RY0Q4Zt9">
+    <mxGraphModel dx="1674" dy="2020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AyCola5c6fFJrD-FsuC4-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="185" width="632.5" height="495" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AyCola5c6fFJrD-FsuC4-12" target="AyCola5c6fFJrD-FsuC4-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AyCola5c6fFJrD-FsuC4-12" target="AyCola5c6fFJrD-FsuC4-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AyCola5c6fFJrD-FsuC4-12" target="AyCola5c6fFJrD-FsuC4-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AyCola5c6fFJrD-FsuC4-12" target="AyCola5c6fFJrD-FsuC4-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="440" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AyCola5c6fFJrD-FsuC4-1" target="AyCola5c6fFJrD-FsuC4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-33" value="2.监听代码提交" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AyCola5c6fFJrD-FsuC4-32">
+          <mxGeometry x="0.175" y="2" relative="1" as="geometry">
+            <mxPoint x="15" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AyCola5c6fFJrD-FsuC4-1" target="AyCola5c6fFJrD-FsuC4-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-35" value="3.编译程序，并开始测试" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AyCola5c6fFJrD-FsuC4-34">
+          <mxGeometry x="0.0128" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-1" value="Jekins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="50" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AyCola5c6fFJrD-FsuC4-2" target="AyCola5c6fFJrD-FsuC4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-41" value="4.P2P接口请求区块" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AyCola5c6fFJrD-FsuC4-14">
+          <mxGeometry x="0.5893" y="-2" relative="1" as="geometry">
+            <mxPoint x="62" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-2" value="bubi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-3" value="ethereum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AyCola5c6fFJrD-FsuC4-4" target="AyCola5c6fFJrD-FsuC4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-4" value="fabric" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-6" value="github" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="50" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AyCola5c6fFJrD-FsuC4-7" target="AyCola5c6fFJrD-FsuC4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-7" value="btc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="737.5" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-13" value="P2P接口适配器（新开发程序）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="460" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-31" value="1.提交代码" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AyCola5c6fFJrD-FsuC4-15" target="AyCola5c6fFJrD-FsuC4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-15" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="-80" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-16" value="开发人员" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AyCola5c6fFJrD-FsuC4-17" target="AyCola5c6fFJrD-FsuC4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-48" value="6.查看测试结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AyCola5c6fFJrD-FsuC4-47">
+          <mxGeometry x="-0.0857" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-17" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="-80" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-18" value="测试人员" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="-65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-36" value="性能测试服务器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-37" value="bubi 交易数据&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="555" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-38" value="fabric 交易数据&lt;br&gt;数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="450" y="555" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-39" value="ethereum 交易数据&lt;br&gt;数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="580" y="555" width="110" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-40" value="btc 交易数据&lt;br&gt;数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="740" y="555" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AyCola5c6fFJrD-FsuC4-46" value="5.读取本地区块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="510" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
