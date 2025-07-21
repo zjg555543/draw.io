@@ -4,7 +4,7 @@
 The goal is to **burn OKB ERC20 tokens on Ethereum (L1)** and **mint the corresponding amount of native OKB tokens on X Layer (L2)**.
 
 **2 Option 1: OKB Burn/Mint via Polygon Bridge Messaging**
-
+![OKB Bridge Diagram](1.png)
 1. **Preparation Phase:**
 
    1. *Steps 1 & 2:* Upgrade the OKB ERC20 contract on Ethereum (L1) and disable user ability to bridge OKB to L2 via the old Polygon Bridge.
@@ -27,7 +27,7 @@ The goal is to **burn OKB ERC20 tokens on Ethereum (L1)** and **mint the corresp
    1. *Step 10:* The new Polygon Bridge mints the corresponding amount of OKB on L2, and users receive the equivalent amount of new OKB on X Layer.
 
 **3 Option 2: Hard Fork L2 and Deploy Issuance Contract, Use LayerZero Bridge for Burn/Mint Messaging**
-
+![OKB Bridge Diagram](2.png)
 1. **Preparation Phase:**
 
    1. *Steps 1 & 2:* Admin upgrades the OKB ERC20 contract on Ethereum (L1) and disables user bridging of OKB to L2 via the old Polygon Bridge.

@@ -1,61 +1,61 @@
 <mxfile host="65bd71144e">
     <diagram name="Cross Chain Bridge Architecture" id="cross-chain-bridge">
-        <mxGraphModel dx="1094" dy="1900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1901" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="l1-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;fontStyle=1;verticalAlign=top;spacingTop=20;container=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="70" width="600" height="250" as="geometry"/>
+                    <mxGeometry x="340" y="60" width="600" height="250" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;1. Upgrade Contract&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="l1-container">
+                <mxCell id="8" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;1. Upgrade Contract&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="l1-container" vertex="1">
                     <mxGeometry x="80" y="30" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="l2-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;fontStyle=1;verticalAlign=top;spacingTop=20;container=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="450" width="600" height="250" as="geometry"/>
+                    <mxGeometry x="340" y="440" width="600" height="250" as="geometry"/>
                 </mxCell>
                 <mxCell id="mint-function" value="Mint" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeStyle=dashed;fontSize=11;" parent="l2-container" vertex="1">
                     <mxGeometry x="300" y="170" width="60" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="admin-top" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="-90" width="30" height="60" as="geometry"/>
+                    <mxGeometry x="580" y="-100" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="user-right" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="945" y="100" width="30" height="60" as="geometry"/>
+                    <mxGeometry x="1085" y="90" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="okb-erc20" value="OKB ERC20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="180" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="390" y="170" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="polygon-bridge-l1" value="Polygon Bridge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="550" y="180" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="690" y="170" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="okx-sign-service" value="OKX Sign Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="900" y="300" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="1040" y="290" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="xlayer-bridge-service" value="X Layer Bridge Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="900" y="400" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="1040" y="390" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="older-polygon-bridge" value="Older Polygon Bridge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="530" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="390" y="520" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="new-polygon-bridge" value="New Polygon Bridge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="550" y="530" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="690" y="520" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="burn-function" value="Burn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeStyle=dashed;fontSize=11;" parent="1" vertex="1">
-                    <mxGeometry x="620" y="630" width="60" height="40" as="geometry"/>
+                    <mxGeometry x="760" y="620" width="60" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="admin-bottom" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="295" y="750" width="30" height="60" as="geometry"/>
+                    <mxGeometry x="435" y="740" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="user-bottom" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="515" y="750" width="30" height="60" as="geometry"/>
+                    <mxGeometry x="655" y="740" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="admin-bottom2" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="635" y="750" width="30" height="60" as="geometry"/>
+                    <mxGeometry x="775" y="740" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="edge1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="admin-top" target="okb-erc20" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="310"/>
+                            <mxPoint x="450" y="-10"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -65,14 +65,14 @@
                 <mxCell id="edge5" value="5. Permit burn OKB" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="user-right" target="okx-sign-service" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="960" y="160"/>
+                            <mxPoint x="1100" y="150"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="edge6" value="6. Batch submit burn OKB signature" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="okx-sign-service" target="okb-erc20" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="310" y="330"/>
+                            <mxPoint x="450" y="320"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -82,8 +82,8 @@
                 <mxCell id="edge8" value="8. Receive Message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="polygon-bridge-l1" target="xlayer-bridge-service" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="850" y="210"/>
-                            <mxPoint x="850" y="430"/>
+                            <mxPoint x="990" y="200"/>
+                            <mxPoint x="990" y="420"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -99,29 +99,29 @@
                 <mxCell id="bridge-connection" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeStyle=dashed;" parent="1" source="older-polygon-bridge" target="new-polygon-bridge" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;L1 Ethereum&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="175" width="130" height="40" as="geometry"/>
+                <mxCell id="5" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;L1 Ethereum&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="165" width="130" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="&lt;span style=&quot;font-size: 16px; font-weight: 700;&quot;&gt;L2 X Layer&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="545" width="100" height="30" as="geometry"/>
+                <mxCell id="6" value="&lt;span style=&quot;font-size: 16px; font-weight: 700;&quot;&gt;L2 X Layer&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="535" width="100" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="510" y="420" width="60" height="30" as="geometry"/>
+                <mxCell id="7" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="410" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="510" y="420" width="60" height="30" as="geometry"/>
+                <mxCell id="9" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="410" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="admin-top" target="polygon-bridge-l1">
+                <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#ffffff;endArrow=none;" parent="1" source="admin-top" target="polygon-bridge-l1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="610"/>
+                            <mxPoint x="750" y="-10"/>
                         </Array>
-                        <mxPoint x="515" as="sourcePoint"/>
-                        <mxPoint x="610" y="180" as="targetPoint"/>
+                        <mxPoint x="655" y="-10" as="sourcePoint"/>
+                        <mxPoint x="750" y="170" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="11" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;2. Disable Polygon Bridge&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="560" y="100" width="100" height="30" as="geometry"/>
+                <mxCell id="11" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;2. Disable Polygon Bridge&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="90" width="100" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
